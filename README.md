@@ -12,6 +12,13 @@ The **Supply Imbalance & Supply Decay Analyzer** is a specialized market diagnos
 
 Unlike traditional SEO tools that focus on *demand* (keyword volume, difficulty), this tool focuses entirely on **supply quality**. It detects markets where supply exists but is outdated, fragile, or structurally inefficient—signaling a prime opportunity for disruption.
 
+## 🔗 Customer Access Link
+To distribute this tool to end-users (e.g. via Gumroad delivery email), use the following **Direct Launch URL**:
+
+```
+https://colab.research.google.com/github/ekawahara01/Supply-Imbalance-Analyzer/blob/main/Supply_Imbalance_Analyzer.ipynb
+```
+
 ## 🎯 Key Differentiators
 
 | Traditional SEO Tools | Supply Imbalance Analyzer |
