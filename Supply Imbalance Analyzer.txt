@@ -1,0 +1,361 @@
+📘 Design Specification (Revised v2.0)
+Supply Imbalance & Supply Decay Analyzer
+
+(DataForSEO–Based Decision Tool)
+
+1. Product Purpose & Core Question
+
+Supply Imbalance & Supply Decay Analyzer is a decision-support tool designed to identify underserved or structurally failing markets by analyzing the quality, sustainability, and cost-efficiency of existing supply in search results.
+
+The core question this tool answers is:
+
+“Do existing solutions exist — and if so, are they structurally failing to serve the market?”
+
+This tool is explicitly designed to detect functional supply shortages, not demand volume.
+
+2. Key Differentiation (Why This Tool Exists)
+
+Traditional SEO tools (e.g., Ahrefs, SEMrush) focus on:
+
+Domain authority
+
+Keyword difficulty
+
+Competitive strength
+
+This tool focuses instead on:
+
+Supply health
+
+Supply decay
+
+Supply cost inefficiency
+
+Maintenance fragility
+
+It identifies markets where:
+
+Supply exists but is outdated
+
+Supply is overbuilt relative to value
+
+Supply is fragile, homogeneous, or unsustainable
+
+3. Delivery & Business Model
+3.1 Sales Channel
+
+Gumroad
+
+One-time purchase
+
+3.2 Delivery Method
+
+Pre-configured Google Colab Notebook
+
+No local setup
+
+No server infrastructure
+
+No coding required
+
+3.3 User Promise
+
+“From purchase to market verdict in under 5 minutes.”
+
+4. API Architecture
+4.1 Required API (Core Mode)
+
+DataForSEO API (mandatory)
+
+Used for:
+
+SERP snapshots
+
+Domain-level metrics
+
+Page-level metadata
+
+Content structure indicators
+
+4.2 Optional API (Advanced Mode)
+
+AI API (Gemini / OpenAI / others)
+
+Optional
+
+No affiliate integration
+
+Used only for explanation and interpretation
+
+Core analysis works fully without AI.
+
+5. Analysis Architecture (Two-Layer Model)
+Layer 1: Core Supply Analysis (Default)
+
+Rule-based
+
+Deterministic
+
+Fully reproducible
+
+AI-independent
+
+Outputs:
+
+Supply Health Score
+
+Underserved / Balanced / Saturated classification
+
+Structural failure indicators
+
+Layer 2: AI-Enhanced Interpretation (Optional)
+
+Adds:
+
+Natural-language explanation
+
+Supply failure reasoning
+
+Strategic commentary
+
+AI does not change the score, only the explanation.
+
+6. Core Metrics & Logic
+6.1 Supply Health Score (Primary)
+
+Evaluates supply using measurable signals:
+
+Domain diversity in SERP
+
+Content freshness / decay
+
+Update and maintenance signals
+
+Supply homogeneity
+
+Structural sustainability
+
+6.2 New Core Metric:
+Supply Effort–Value Gap Index (SEVGI)
+
+This metric operationalizes the Gemini feedback regarding
+“Content effort vs. apparent value.”
+
+Definition (Conceptual)
+SEVGI =
+(Content Complexity × Maintenance Cost Signal)
+÷
+(Search Visibility Outcome)
+
+DataForSEO Signals Used
+Component	DataForSEO Signals
+Content Complexity	HTML size, word count, image count
+Maintenance Cost	Update frequency, page depth
+Visibility Outcome	SERP position, snippet presence
+Domain Strength	Domain rank
+Interpretation
+
+High effort + strong domains
+
+Low visibility or weak differentiation
+
+→ Zombie Supply Detected
+(Overbuilt, underperforming, likely to decay)
+
+This enables automatic detection of “weak incumbents.”
+
+7. Supply Status Classification
+Status	Meaning
+Underserved	Supply exists but is failing structurally
+Balanced	Supply is healthy and sustainable
+Saturated	Supply is strong, maintained, and competitive
+8. Efficiency Engine Integration (ROI Reinforcement)
+
+To strengthen purchasing justification and DataForSEO retention,
+the tool automatically injects a cost comparison insight.
+
+Mandatory Output Block
+Cost Efficiency Insight
+
+This analysis required XX,XXX data points.
+Estimated cost using traditional SEO platforms: $XX.XX
+Actual cost using DataForSEO API: $0.XX
+→ Cost reduction: 9X%
+
+
+This block is:
+
+Automatically generated
+
+Shown on every analysis
+
+Non-optional
+
+Purpose:
+Reinforce the economic superiority of DataForSEO on every use.
+
+9. User Interface Requirements (Google Colab)
+9.1 UI Principles
+
+No code interaction
+
+Form-based inputs only
+
+Diagnostic report layout
+
+Suitable for non-engineers
+
+The notebook must feel like a professional market diagnostic report, not a developer tool.
+
+9.2 Input UI (Forms)
+Input	Type	Required
+Target Keyword	Text	Yes
+Market Scope	Dropdown	Yes
+Analysis Mode	Radio (Core / Advanced)	Yes
+DataForSEO API Key	Password	Yes
+AI API Key	Password	Optional
+
+Required UI Copy
+
+No setup required.
+Core analysis works without AI.
+
+9.3 Execution UI
+
+Single RUN ANALYSIS action
+
+Natural-language progress messages:
+
+Fetching supply data
+
+Analyzing supply structure
+
+Detecting supply decay
+
+Calculating efficiency
+
+9.4 Output UI (Diagnostic Report)
+1. Verdict Panel (Top)
+Supply Status: Underserved / Balanced / Saturated
+Supply Health Score: XX / 100
+Primary Structural Issue: Decay / Concentration / Overhead
+
+
+Color-coded and visually prominent.
+
+2. Visual Diagnostics
+
+Supply Health Gauge
+
+Radar chart (Diversity / Freshness / Maintenance / Efficiency)
+
+Rendered automatically, no code visible.
+
+3. Diagnostic Table
+Indicator	Status	Insight
+Supplier Diversity	Low	Same-type sites dominate
+Content Freshness	Poor	Pages outdated
+SEVGI	High	Zombie supply detected
+4. Cost Efficiency Block
+
+(See Section 8)
+
+10. Actionable Expansion (Conditioned Output)
+Trigger Condition
+
+Supply Status = Underserved
+
+Additional Output Section
+
+Actionable Opportunities
+
+Related low-competition keywords (DataForSEO)
+
+Content clusters with weak supply
+
+Optional CSV export
+
+This section enables:
+
+Direct action
+
+Gumroad upsell potential
+
+Domain and keyword monetization workflows
+
+11. Trust & Transparency Requirements
+
+Mandatory disclaimer:
+
+This tool evaluates supply-side structure and sustainability.
+It does not measure market size, revenue, or ranking difficulty.
+
+
+No performance guarantees.
+No predictive revenue claims.
+
+12. Relationship to DataForSEO
+
+This product is intentionally designed to:
+
+Showcase what is uniquely possible with DataForSEO APIs
+
+Encourage API-first analysis
+
+Be impossible to replicate with UI-only SEO tools
+
+It functions as:
+
+A decision tool
+
+A live DataForSEO demonstration
+
+A conversion asset for DataForSEO adoption
+
+13. Primary Use Cases
+
+SaaS idea validation (pre-build)
+
+SEO market entry screening
+
+Detection of decaying SERPs
+
+Underserved niche discovery
+
+Competitive fragility analysis
+
+Agency and consulting diagnostics
+
+DataForSEO capability demonstration
+
+14. Explicit Non-Goals
+
+This tool does not aim to:
+
+Replace SEO platforms
+
+Optimize rankings
+
+Predict revenue
+
+Guarantee outcomes
+
+Its purpose is decision clarity, not execution automation.
+
+15. MVP Success Criteria
+
+Clear GO / NO-GO signal within minutes
+
+Only one mandatory API key
+
+Non-technical users can interpret results
+
+Low support burden
+
+High DataForSEO perceived value
+
+Final Statement
+
+Supply Imbalance & Supply Decay Analyzer is designed to prevent bad investments by exposing markets where supply is already failing.
+
+Its power lies not in prediction, but in revealing structural weakness before capital is committed.
