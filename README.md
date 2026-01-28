@@ -51,7 +51,10 @@ This tool is designed as a **zero-setup** Jupyter Notebook.
 
 ### Option 1: Run in Google Colab (Recommended)
 1.  Click the "Open in Colab" badge above.
-2.  Enter your **DataForSEO API Login ID** & **API Password** in the configuration cell.
+2.  **Set Secrets:** Click the 🔑 Key Icon on the left sidebar. Add two secrets:
+    *   Name: `DATAFORSEO_LOGIN` (Your Email)
+    *   Name: `DATAFORSEO_PASSWORD` (Your API Password)
+    *   *Toggle "Notebook access" to ON.*
 3.  Select `Runtime > Run all`.
 
 ### Option 2: Run Locally
