@@ -44,13 +44,21 @@ This tool is designed as a **zero-setup** Jupyter Notebook.
 
 ### Option 1: Run in Google Colab (Recommended)
 1.  Click the "Open in Colab" badge above.
-2.  Enter your **DataForSEO API Key** in the configuration cell.
+2.  Enter your **DataForSEO API Login ID** & **API Password** in the configuration cell.
 3.  Select `Runtime > Run all`.
 
 ### Option 2: Run Locally
 1.  Clone this repository.
 2.  Install dependencies: `pip install pandas requests matplotlib seaborn`
 3.  Open `Supply_Imbalance_Analyzer.ipynb` in Jupyter Lab or VS Code.
+
+## 🛡️ Security & Privacy
+We believe in full transparency regarding how your credentials are used.
+
+*   **Client-Side Execution Only**: This tool runs entirely within your personal Google Cloud instance (via Colab) or local machine.
+*   **No Intermediaries**: API requests are sent directly from your session to the DataForSEO API. Your credentials are **never** sent to our servers or any third-party logging service.
+*   **Ephemeral Storage**: In Google Colab, your credentials exist only in the temporary RAM of the session and are wiped as soon as you close the browser tab.
+*   **Open Source**: The code is fully visible and editable. You can inspect the connection logic yourself to verify security.
 
 ## 🛠️ Tech Stack & Architecture
 
