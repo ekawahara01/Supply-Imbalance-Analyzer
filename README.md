@@ -2,7 +2,7 @@
 
 **A DataForSEO-Based Decision Support Tool**
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ekawahara01/Supply-Imbalance-Analyzer/blob/main/Supply_Imbalance_Analyzer.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ekawahara01/supply-analyzer.dev/blob/main/Supply_Imbalance_Analyzer.ipynb)
 
 ## 📊 Overview
 
@@ -16,7 +16,7 @@ Unlike traditional SEO tools that focus on *demand* (keyword volume, difficulty)
 To distribute this tool to end-users (e.g. via Gumroad delivery email), use the following **Direct Launch URL**:
 
 ```
-https://colab.research.google.com/github/ekawahara01/Supply-Imbalance-Analyzer/blob/main/Supply_Imbalance_Analyzer.ipynb
+https://colab.research.google.com/github/ekawahara01/supply-analyzer.dev/blob/main/Supply_Imbalance_Analyzer.ipynb
 ```
 
 ## 🎯 Key Differentiators
